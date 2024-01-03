@@ -100,11 +100,8 @@ const Project = () => {
               <p>{ele.desc} </p>
               </div>
               <div className="btn">
-                {ele.preview != "" ? (
+                
                   <Button buttonText={"Preview"} link={ele.preview} />
-                ) : (
-                  ""
-                )}
 
                 {ele.github != "" ? (
                   <Button buttonText={"Github"} link={ele.github} />
