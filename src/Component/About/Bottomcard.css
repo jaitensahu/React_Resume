@@ -1,0 +1,23 @@
+.bottomcard{
+    width: 40%;
+    background-color: #235676;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    flex-grow: 1;
+}
+.bottomcard img{
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    width: 80px;
+}
+.bottomcard p{
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+}
+.bottomcard h4{
+    text-align: center;
+    margin: 10px;
+}

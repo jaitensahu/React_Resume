@@ -1,0 +1,48 @@
+.details{
+    background-color: #21839D;
+    padding: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 20px;
+    color: white;
+    height: max-content;
+}
+.imgName{
+    text-align: center;
+}
+.imgName > p{
+    padding: 5px 25px;
+    background-color: #215968;
+    color: white;
+    text-align: center;
+}
+
+.ageLocationPersonality{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    gap: 10px;
+}
+.details i{
+    font-size: 22px;
+}
+.socialIcons{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.details img{
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+
+
+
+
+

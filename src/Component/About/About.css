@@ -1,0 +1,133 @@
+.primaryFocus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.right{
+    /* width: 80%; */
+    /* position: relative; */
+    border-radius: 10px;
+    background-color: #2186A0;
+    padding: 30px;
+    color: white;
+}
+
+.introContainer{
+    background-color: #22697B;
+    padding: 20px;
+    border-radius: 20px;
+}
+.intro{
+    overflow: hidden;
+}
+.introContainer p{
+    text-align: center;
+    margin-top: 10px;
+}
+.primaryFocusContainer h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.right h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.exploreCardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* PROGRESS BAR CSS */
+
+/* .wrapper {
+    border: 1px solid blue;
+  } */
+  
+  .container {
+    background-color: pink;
+  }
+  
+  .barCompleted {
+    background-color: lightblue;
+    width: 80%;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: green;
+  }
+  .skill  img{
+    width: 150px;
+  }
+  .skill .skillContent{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .example1 {
+    height: min-content;
+    width: 100%;	
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+   }
+
+   .skillContent{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: skillContentt 30s linear infinite;
+   /* } */
+
+    /* Starting position */
+    -moz-transform:translateX(0%);
+    -webkit-transform:translateX(0%);	
+    transform:translateX(0%);
+    /* Apply animation to this element */	
+    -moz-animation: skillContentt 30s linear infinite;
+    -webkit-animation: skillContentt 30s linear infinite;
+    animation: skillContentt 30s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @-moz-keyframes skillContentt {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes skillContentt {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes skillContentt {
+    0%   { 
+    -moz-transform: translateX(0%); 
+    -webkit-transform: translateX(0%); 
+    transform: translateX(0%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); 
+    -webkit-transform: translateX(-100%); 
+    transform: translateX(-100%); 
+    }
+   }
+   .skillContent:hover {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    /* box-shadow: 5px 5px 10px 10px black; */
+    }
+
+    .skillContent img:hover {
+        filter: drop-shadow(3px 3px 20px yellow);
+    }
+
+/*Bottom card css  */
+    .bottomcardContainer{
+        margin: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
