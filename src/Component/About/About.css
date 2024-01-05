@@ -9,7 +9,7 @@
     /* position: relative; */
     border-radius: 10px;
     background-color: #2186A0;
-    padding: 30px;
+    padding: 20px;
     color: white;
 }
 
@@ -17,9 +17,11 @@
     background-color: #22697B;
     padding: 20px;
     border-radius: 20px;
-}
+    margin-top: 30px;
+  }
 .intro{
     overflow: hidden;
+    
 }
 .introContainer p{
     text-align: center;
@@ -130,4 +132,19 @@
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 50px;
+    }
+    .show{
+      margin: 0 5px;
+    }
+    .showOrHide{
+      /* transition: 1s linear; */
+      animation: showOrHide 1s linear infinite alternate;
+    }
+    @keyframes showOrHide {
+      0%{
+        transform: translateY(0);
+      }
+      100%{
+        transform: translateY(8px);
+      }
     }

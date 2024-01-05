@@ -77,7 +77,8 @@ const About = (props) => {
 
   return (
     <div className="right">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
+      <div className="underline"></div>
       <div className="colorYellow"></div>
       <div className="introContainer">
         <div className="intro" style={{ height: isHide ? "60px" : "auto" }}>
@@ -107,7 +108,10 @@ const About = (props) => {
           conversation about your concept. I'm excited to collaborate and help
           bring your ideas to life.
         </div>
-        <p onClick={showOrHide}>{isHide ? "Show more" : "Show Less"}</p>
+        <p className="showOrHide" onClick={showOrHide}>
+          {isHide ?<i class="fa-solid fa-arrow-down-long"></i>:<i class="fa-solid fa-arrow-up-long"></i> }<span className="show">{isHide ? "Show more" : "Show Less"}</span>
+          {isHide ?<i class="fa-solid fa-arrow-down-long"></i>:<i class="fa-solid fa-arrow-up-long"></i> }
+          </p>
       </div>
 
       <div className="primaryFocusContainer">

@@ -14,6 +14,7 @@ function App() {
   function getId(e) {
     console.log(e.target.getAttribute("id"));
     setPageId(e.target.getAttribute("id"));
+    // e.target.style.color="red";
   }
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
         <Mydetail />
         <div className="rightContainer">
           <div className="navbar">
-            <p onClick={getId} id="about">
+            <p onClick={getId} style={{color:"white"}} id="about">
               About
             </p>
             <p onClick={getId} id="certificate">

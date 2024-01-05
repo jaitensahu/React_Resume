@@ -22,6 +22,7 @@ body{
 .rightContainer{
     width: 80%;
     position: relative;
+    left: 23%;
 }
 .navbar{
     display: flex;
@@ -34,4 +35,7 @@ body{
     padding: 15px 20px;
     width: 400px;
     justify-content: space-between;
+}
+.navbar p{
+    cursor: pointer;
 }

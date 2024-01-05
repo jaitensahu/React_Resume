@@ -9,6 +9,8 @@
     border-radius: 20px;
     color: white;
     height: max-content;
+    position: fixed;
+    left: 150px;
 }
 .imgName{
     text-align: center;
